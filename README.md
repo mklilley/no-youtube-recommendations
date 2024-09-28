@@ -1,7 +1,5 @@
 # No YouTube Recommendations Chrome Extension
 
-![No YouTube Recommendations Icon](./icon.png)
-
 ## Overview
 
 **No YouTube Recommendations** is a simple Chrome extension designed to improve your productivity by hiding YouTube's sidebar recommendations. With a single click on the extension icon, you can toggle the visibility of the recommendations on and off, helping you to stay focused on your intended content.
