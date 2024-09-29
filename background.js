@@ -23,14 +23,7 @@ chrome.action.onClicked.addListener((tab) => {
 
 // Function to update the icon and badge based on the state
 function updateIconAndBadge(isDisabled) {
-  // Set the icon to greyed out if disabled
-  chrome.action.setIcon({
-    path: {
-      "48": isDisabled ? "icon_grey.png" : "icon.png",
-    }
-  });
-
-  // Optionally, use a badge to show state
+  // Use a badge to show state
   chrome.action.setBadgeText({ text: isDisabled ? "OFF" : "" });
   chrome.action.setBadgeBackgroundColor({ color: isDisabled ? "#B0B0B0" : "#4688F1" });
 }
