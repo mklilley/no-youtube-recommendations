@@ -1,9 +1,10 @@
 // Function to hide or show recommendations
 function toggleRecommendations(hide) {
-  const recommendations = document.querySelector('#secondary');
-  if (recommendations) {
+  const recommendationsList = document.querySelectorAll('#secondary'); // Get all elements with ID #secondary
+
+  recommendationsList.forEach((recommendations) => {
     recommendations.style.display = hide ? 'none' : '';
-  }
+  });
 }
 
 // Check the initial state when the content script loads
